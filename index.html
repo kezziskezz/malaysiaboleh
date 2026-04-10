@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malaysia Boleh Property</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo-link">
+        <img src="logo.png" alt="Malaysia Boleh" class="nav-logo" />
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#projects">Projects</a>
+        <a href="#why-visit">Why Visit</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://wa.me/60XXXXXXXXXX" class="btn-nav" target="_blank">WhatsApp Us 📱</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-bg-text">BOLEH</div>
+    <div class="hero-content">
+      <div class="hero-badge">🇲🇾 First Home? Malaysia Boleh.</div>
+      <h1>Wah, you actually<br /><em>boleh</em> afford this.</h1>
+      <p class="hero-sub">Stop renting for your landlord's retirement plan.<br />Start owning something for yours.</p>
+      <div class="hero-cta">
+        <a href="#book" class="btn-primary">📅 Book Showroom Visit</a>
+        <a href="https://wa.me/60XXXXXXXXXX" class="btn-secondary" target="_blank">WhatsApp Us lah →</a>
+      </div>
+      <div class="hero-pills">
+        <span>✓ From RM371,000</span>
+        <span>✓ Bangsar South</span>
+        <span>✓ No pressure visit</span>
+        <span>✓ First-homebuyer friendly</span>
+      </div>
+    </div>
+    <div class="hero-card-wrap">
+      <div class="hero-prop-card">
+        <div class="hero-prop-img">
+          <div class="hero-prop-badge">⭐ Featured</div>
+        </div>
+        <div class="hero-prop-info">
+          <span class="tag-pill">Lifestyle Suites</span>
+          <h3>Solarvest Suites</h3>
+          <p>📍 Bangsar South, KL</p>
+          <div class="hero-prop-price">From <strong>RM371,000</strong></div>
+          <a href="#book" class="btn-card">Visit Showroom</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAIN POINTS ────────────────────────────── -->
+  <section class="pain">
+    <div class="container">
+      <div class="section-label">Sounds familiar? 😅</div>
+      <h2 class="section-title">We've all been there lah.</h2>
+      <div class="pain-grid">
+        <div class="pain-card fade-up">
+          <span class="pain-icon">💸</span>
+          <p>"My rent naik every year but my savings pun sama je."</p>
+        </div>
+        <div class="pain-card fade-up">
+          <span class="pain-icon">👨‍👩‍👧</span>
+          <p>"Parents dah tanya 100 kali — <em>'Bila nak beli rumah?'</em>"</p>
+        </div>
+        <div class="pain-card fade-up">
+          <span class="pain-icon">😰</span>
+          <p>"Nak beli rumah tapi the whole process rasa macam rocket science."</p>
+        </div>
+        <div class="pain-card fade-up">
+          <span class="pain-icon">🏙️</span>
+          <p>"Bangsar South? I thought that's only for orang kaya je."</p>
+        </div>
+      </div>
+      <div class="pain-answer">Spoiler: <strong>It's more achievable than you think.</strong> &nbsp;→ Come see for yourself.</div>
+    </div>
+  </section>
+
+  <!-- ── AFFORDABILITY CALC ──────────────────────── -->
+  <section class="calc-section">
+    <div class="container">
+      <div class="calc-wrapper">
+        <div class="calc-text">
+          <div class="section-label">Quick Check</div>
+          <h2>Boleh ke tak?<br />Let's check lah.</h2>
+          <p>Masukkan gaji bulanan and we'll give you an honest answer. No BS.</p>
+        </div>
+        <div class="calc-box">
+          <label for="salary">Monthly Salary (RM)</label>
+          <input type="number" id="salary" placeholder="e.g. 4500" min="0" />
+          <button class="btn-calc" onclick="calculate()">Check Boleh Ke Tak 🔍</button>
+          <div id="calc-result"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ────────────────────────────────── -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-label">By Chin Hin Property</div>
+      <h2 class="section-title">Our Projects</h2>
+      <p class="section-sub">Thoughtfully designed for the way you actually live — not just how brochures say you should.</p>
+      <div class="projects-grid">
+
+        <div class="project-card featured fade-up">
+          <div class="project-img proj-1">
+            <span class="proj-badge">⭐ Featured</span>
+            <span class="proj-price">From RM371,000</span>
+          </div>
+          <div class="project-info">
+            <span class="proj-type">Lifestyle Suites</span>
+            <h3>Solarvest Suites</h3>
+            <p class="proj-loc">📍 Bangsar South, KL</p>
+            <p>Perfect for young professionals who want city living without selling both kidneys.</p>
+            <a href="#book" class="btn-project">Visit Showroom →</a>
+          </div>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-img proj-2">
+            <span class="proj-price">Enquire for Price</span>
+          </div>
+          <div class="project-info">
+            <span class="proj-type">Serviced Residence</span>
+            <h3>The Habitat</h3>
+            <p class="proj-loc">📍 Klang Valley</p>
+            <p>Modern living designed around how you actually use your space.</p>
+            <a href="https://wa.me/60XXXXXXXXXX" class="btn-project">Enquire →</a>
+          </div>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-img proj-3">
+            <span class="proj-price">Coming Soon</span>
+          </div>
+          <div class="project-info">
+            <span class="proj-type">New Launch</span>
+            <h3>New Launches 2025</h3>
+            <p class="proj-loc">📍 Klang Valley</p>
+            <p>Something exciting is coming. Register interest and be the first to know.</p>
+            <a href="https://wa.me/60XXXXXXXXXX" class="btn-project">Notify Me →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY VISIT ──────────────────────────────── -->
+  <section class="why-visit" id="why-visit">
+    <div class="container">
+      <div class="section-label">The Real Talk</div>
+      <h2 class="section-title">Why bother visiting<br />the showroom?</h2>
+      <p class="section-sub">Because photos lie lah. Here's what 20 minutes in person actually gets you:</p>
+      <div class="why-grid">
+        <div class="why-card fade-up">
+          <div class="why-num">01</div>
+          <span class="why-icon">🏠</span>
+          <h3>Feel the actual space</h3>
+          <p>No more guessing if your wardrobe will fit. See it in real life.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-num">02</div>
+          <span class="why-icon">💬</span>
+          <h3>Ask anything, no pressure</h3>
+          <p>Our team won't hard-sell you. Come in jeans, come in slippers — we don't judge.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-num">03</div>
+          <span class="why-icon">📋</span>
+          <h3>Understand the process</h3>
+          <p>First-time buyer? We walk you through everything in plain English (and BM).</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-num">04</div>
+          <span class="why-icon">⚡</span>
+          <h3>Decide faster</h3>
+          <p>One visit usually answers more questions than 2 weeks of Googling at 2am.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ────────────────────────────────── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-label">Tengok Dulu</div>
+      <h2 class="section-title">Decide later.</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item g1 fade-up"><span>Living Area</span></div>
+        <div class="gallery-item g2 fade-up"><span>Kitchen</span></div>
+        <div class="gallery-item g3 fade-up"><span>Master Bedroom</span></div>
+        <div class="gallery-item g4 fade-up"><span>Bathroom</span></div>
+        <div class="gallery-item g5 fade-up"><span>City View</span></div>
+        <div class="gallery-item g6 fade-up"><span>Building Facade</span></div>
+      </div>
+      <p class="gallery-note">📸 Replace these with real photos — drop your images into the project folder and update the CSS background-image.</p>
+    </div>
+  </section>
+
+  <!-- ── FAQ ───────────────────────────────────── -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-label">Soalan Lazim</div>
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Kena book dulu ke, or boleh walk-in? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Walk-in pun boleh! But booking ahead helps us prep answers for your specific questions. Takes 30 seconds via WhatsApp lah.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Is this really affordable for fresh grads / young workers? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Starting from RM371,000, with government first-homebuyer schemes available — it's more realistic than you think. Come in and we'll show you the actual numbers.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Can I bring my partner or parents? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Please do! Bawa sekali lah. More eyes = better decisions. The more the merrier (within reason lah 😄).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            How long does a visit take? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>About 20–30 minutes for a full walkthrough and Q&A. Stay longer if you have more questions — no one's rushing you out.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Showroom dekat mana? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>📍 [Add showroom address here] · Easy parking available. WhatsApp us for exact directions!</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            What are the visiting hours? <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Open daily, Monday–Sunday, 10am–6pm. Public holidays pun boleh — confirm via WhatsApp first.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FINAL CTA ──────────────────────────────── -->
+  <section class="cta-section" id="book">
+    <div class="cta-bg-text">BOLEH</div>
+    <div class="container">
+      <div class="cta-inner">
+        <h2>Ready to make your<br />parents proud? 😂</h2>
+        <p>Book a free showroom visit. No commitment. No hard sell.<br />Just come see if it feels right lah.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn-primary btn-lg">📅 Book a Visit</a>
+          <a href="https://wa.me/60XXXXXXXXXX" class="btn-wa btn-lg" target="_blank">💬 WhatsApp Us</a>
+        </div>
+        <p class="cta-note">Mon–Sun · 10am–6pm · Bangsar South</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <img src="logo.png" alt="Malaysia Boleh" class="footer-logo" />
+        <p class="footer-tag">A campaign by <strong>Malaysia Boleh 🇲🇾</strong> × Chin Hin Property</p>
+        <p class="footer-desc">Helping young Malaysians find their first home — without the drama.</p>
+        <div class="footer-links">
+          <a href="#projects">Projects</a>
+          <a href="#why-visit">Why Visit</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://wa.me/60XXXXXXXXXX" target="_blank">WhatsApp</a>
+        </div>
+        <p class="footer-copy">© 2025 Malaysia Boleh Property. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── FLOATING WHATSAPP ──────────────────────── -->
+  <a href="https://wa.me/60XXXXXXXXXX" class="wa-float" target="_blank" title="WhatsApp Us">
+    💬
+  </a>
+
+  <script>
+    // ── Sticky nav shadow
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // ── Mobile hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // ── Affordability calculator
+    function calculate() {
+      const salary = parseFloat(document.getElementById('salary').value);
+      const result = document.getElementById('calc-result');
+      if (!salary || salary <= 0) {
+        result.innerHTML = '<p class="res-err">Masukkan gaji dulu lah! 😅</p>';
+        return;
+      }
+      const roughMax = Math.round(salary * 0.6 * 12 * 30);
+      if (salary >= 3500) {
+        result.innerHTML = `<div class="res-yes">✅ <strong>Boleh!</strong> Estimated loan eligibility up to RM${roughMax.toLocaleString()}. Solarvest Suites is very much within reach. Come visit and we'll walk you through it!</div>`;
+      } else if (salary >= 2500) {
+        result.innerHTML = `<div class="res-maybe">🤔 <strong>Maybe boleh!</strong> There are government first-homebuyer schemes that can help bridge the gap. Let's talk — visit the showroom and we'll explore your options together.</div>`;
+      } else {
+        result.innerHTML = `<div class="res-no">💪 <strong>Not yet — tapi jangan give up!</strong> Consider a joint application with a partner or family member. We've helped people in your situation before. Come chat with us!</div>`;
+      }
+    }
+
+    // ── FAQ toggle
+    function toggleFaq(btn) {
+      const answer = btn.nextElementSibling;
+      const icon = btn.querySelector('.faq-icon');
+      const isOpen = answer.classList.contains('open');
+      document.querySelectorAll('.faq-a').forEach(a => { a.classList.remove('open'); a.style.maxHeight = ''; });
+      document.querySelectorAll('.faq-icon').forEach(i => i.textContent = '+');
+      if (!isOpen) {
+        answer.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        icon.textContent = '−';
+      }
+    }
+
+    // ── Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
